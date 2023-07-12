@@ -17,6 +17,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 # Properties
 include $(LOCAL_PATH)/vendor_logtag.mk
 
+# HACK: Avoid usb crash
+PRODUCT_PRODUCT_PROPERTIES := \
+    persist.adb.nonblocking_ffs=0 \
+    ro.adb.nonblocking_ffs=0
+
 # Rootdir
 PRODUCT_PACKAGES += \
     fstab.mt6765 \
