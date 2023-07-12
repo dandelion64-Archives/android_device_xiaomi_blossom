@@ -9,3 +9,5 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
     lineage_blossom-userdebug
+    lineage_blossom-user
+    lineage_blossom-eng
