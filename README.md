@@ -1,3 +1,7 @@
+# ***No longer working on improving this repository due to my skill issue. Issues and Pull Requests are still welcome :)***
+
+## For partial SELinux support without NFC (for now), check [staging/lineage-20-selinux](../../tree/staging/lineage-20-selinux) branch
+
 Unified device tree for Xiaomi Redmi 9A family devices (blossom)
 ================================================================
 
